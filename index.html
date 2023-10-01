@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://kit.fontawesome.com/f597576ac7.js" crossorigin="anonymous"></script>
+  <title>Sphere</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <img src="./src/logo.png" alt="" class="header__logo">
+        <ul class="header__nav-bar">
+          <a href="#">
+            <li class="header__nav-bar__item active">Главная</li>
+          </a>
+          <a href="./catalog.html">
+            <li class="header__nav-bar__item active">Каталог</li>
+          </a>
+          <a href="#">
+            <li class="header__nav-bar__item active">О компании</li>
+          </a>
+          <a href="#">
+            <li class="header__nav-bar__item active">Контакты</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- /.header -->
+
+  <section class="promo">
+    <div class="container">
+      <h3 class="promo__title">Каждый полёт начинается на земле</h3>
+      <button class="promo__btn btn">Оставить заявку</button>
+    </div>
+    <img src="./src/promo-bg-1.jpg" alt="" class="promo__bg-img">
+    <div class="promo__bg-tint"></div>
+  </section>
+  <!-- /.promo -->
+
+  <section class="about-us">
+
+    <div class="container">
+
+      <h3 class="about-us__title title">О нас</h3>
+      <p class="about-us__text">Мы занимаемся проектированием, производством и поставкой оборудования для наземного
+        обслуживания авиации.
+        <br>
+        <br>
+        Сотрудничаем с авиакомпаниями, аэропортами, частными владельцами.
+      </p>
+      <div class="about-us__images">
+        <img src="./src/aboutus1.jpg" alt="" class="about-us__item">
+        <img src="./src/aboutus1.jpg" alt="" class="about-us__item">
+        <img src="./src/aboutus1.jpg" alt="" class="about-us__item">
+      </div>
+
+    </div>
+  </section>
+  <!-- /.about-us -->
+
+  <section class="advantage">
+    <div class="container">
+      <h3 class="advantage__title title">Наши преимущества</h3>
+      <div class="advantage__grid">
+        <div class="advantage__row advantage__row-right">
+          <img src="./src/advantage1.jpg" alt="" class="advantage__img-alias">
+          <div class="advantage__container">
+            <h4 class="advantage__container__title">Собственная разработка и производство</h4>
+            <p class="advantage__container__text">Мы создаём продукцию, которая обеспечивает качественное
+              импортозамещение нашим партнёрам, и гарантируем своевременное сервисное обслуживание.</p>
+          </div>
+        </div>
+        <div class="advantage__row advantage__row-left">
+          <img src="./src/advantage2.jpg" alt="" class="advantage__img-alias">
+          <div class="advantage__container">
+            <h4 class="advantage__container__title">Свой логистический центр</h4>
+            <p class="advantage__container__text">Наша компания занимается поставками оборудования, обеспечивая
+              оперативное получение маленькой запчасти или крупногабаритного агрегата.</p>
+          </div>
+        </div>
+        <div class="advantage__row advantage__row-right">
+          <img src="./src/advantage3.jpg" alt="" class="advantage__img-alias">
+          <div class="advantage__container">
+            <h4 class="advantage__container__title">Команда профессионалов</h4>
+            <p class="advantage__container__text">Наши сотрудники помогут подобрать необходимое оборудование, расходный
+              материал или запасную часть.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.advantage -->
+
+  <section class="clients">
+    <div class="container">
+      <h3 class="clients__title title">Наши партнёры</h3>
+      <div class="clients__container">
+        <div class="clients__row">
+          <img src="./src/clients1.png" alt="" class="client__prev">
+          <img src="./src/clients2.png" alt="" class="client__prev">
+          <img src="./src/clients3.png" alt="" class="client__prev">
+        </div>
+        <div class="clients__row">
+          <img src="./src/clients4.png" alt="" class="client__prev">
+          <img src="./src/clients5.png" alt="" class="client__prev">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.clients -->
+
+  <section class="request">
+    <div class="container">
+      <div class="request__title title">Оставить зявку</div>
+      <div class="request__wrapper">
+        <div class="request__contact">
+          <span class="request__number-phone">Телефон: +7 (812)-242-79-95</span>
+          <span class="request__email">Почта: info@sphera.su</span>
+          <div class="request__social">
+            <img src="./src/telegram.svg" alt="" srcset="">
+            <img src="./src/instagram.svg" alt="" srcset="">
+            <img src="./src/whatsapp.svg" alt="" srcset="">
+          </div>
+        </div>
+        <form class="request__form">
+          <input type="email" name="youremail" id="in-email" class="request__input-text" placeholder="Ваш e-mail">
+          <input type="text" name="yourname" id="in-name" class="request__input-text" placeholder="Ваше имя">
+          <textarea name="yourmassage" id="in-massage" class="request__input-text"
+            placeholder="Ваше сообщение"></textarea>
+          <button type="submit" class="request__submit-btn btn-primary">Призыв к действию</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- /.request -->
+
+</body>
+
+</html>
