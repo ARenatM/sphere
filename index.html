@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/styles.css">
   <script src="https://kit.fontawesome.com/f597576ac7.js" crossorigin="anonymous"></script>
+  <script src="./js/script.js" defer></script>
+  <link rel="icon" type="image/x-icon" href="./src/favicon.ico" />
   <title>Sphere</title>
 </head>
 
@@ -39,7 +41,9 @@
       <h3 class="promo__title">Каждый полёт начинается на земле</h3>
       <button class="promo__btn btn">Оставить заявку</button>
     </div>
-    <img src="./src/promo-bg-1.jpg" alt="" class="promo__bg-img">
+    <video autoplay="autoplay" loop="loop" muted class="promo__bg-img">
+      <source src="./src/Timelapse.mp4">
+    </video>
     <div class="promo__bg-tint"></div>
   </section>
   <!-- /.promo -->
@@ -57,8 +61,8 @@
       </p>
       <div class="about-us__images">
         <img src="./src/aboutus1.jpg" alt="" class="about-us__item">
-        <img src="./src/aboutus1.jpg" alt="" class="about-us__item">
-        <img src="./src/aboutus1.jpg" alt="" class="about-us__item">
+        <img src="./src/aboutus2.jpg" alt="" class="about-us__item">
+        <img src="./src/aboutus3.jpg" alt="" class="about-us__item">
       </div>
 
     </div>
@@ -121,12 +125,10 @@
       <div class="request__title title">Оставить зявку</div>
       <div class="request__wrapper">
         <div class="request__contact">
-          <span class="request__number-phone">Телефон: +7 (812)-242-79-95</span>
-          <span class="request__email">Почта: info@sphera.su</span>
+          <span class="request__number-phone">Телефон: <a href="tel:+78122505075">&nbsp;+7 (812) 250-50-75</a></span>
+          <span class="request__email">Почта: <a href="mailto:info@sphera.su">&nbsp;info@sphera.su</a></span>
           <div class="request__social">
-            <img src="./src/telegram.svg" alt="" srcset="">
-            <img src="./src/instagram.svg" alt="" srcset="">
-            <img src="./src/whatsapp.svg" alt="" srcset="">
+            <a href="https://vk.com/sphera_equipment"><img src="./src/vk.svg" alt=""></a>
           </div>
         </div>
         <form class="request__form">
@@ -134,7 +136,7 @@
           <input type="text" name="yourname" id="in-name" class="request__input-text" placeholder="Ваше имя">
           <textarea name="yourmassage" id="in-massage" class="request__input-text"
             placeholder="Ваше сообщение"></textarea>
-          <button type="submit" class="request__submit-btn btn-primary">Призыв к действию</button>
+          <button type="submit" class="request__submit-btn btn">Отправить</button>
         </form>
       </div>
     </div>
